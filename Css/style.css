@@ -60,7 +60,9 @@ body {
 } */
 
 .login-button,
-.contact-button {
+.contact-button,
+.submit-button,
+.footer-button {
   margin-right: 2.4rem;
   padding: .8rem 1.6rem;
   cursor: pointer;
@@ -156,13 +158,10 @@ body {
 /* ===========  Banner Css Ends =========  */
 
 /* ==========  Connection Section Css Starts ========  */
-.main-container {
+.connection-container {
   width: 90%;
   margin: 0 auto;
-}
-
-.connection-container {
-  padding: 3rem 2rem;
+  padding: 2rem 2rem 10rem 2rem;
 }
 
 .connection-main-heading {
@@ -194,7 +193,7 @@ body {
   padding: 3.6rem;
   border: 0.5px solid #A6A6A6;
   box-shadow: 0px 1px 3px rgba(2, 1, 1, 0.1), 0px 2px 1px rgba(2, 1, 1, 0.06), 0px 1px 1px rgba(2, 1, 1, 0.08);
-  border-radius: 8px;
+  border-radius: .8rem;
 }
 
 .connection-card img {
@@ -225,7 +224,283 @@ body {
 }
 
 .connection-background-3 {
-  background: #F7EAED;
+  background: hsl(346, 45%, 94%);
 }
 
 /* ==========  Connection Section Css Ends ========  */
+
+/* ==============  Summary Section Css Starts =============  */
+.summary-container {
+  height: 299px;
+  background: url("../Images/Coupple.png");
+  background-color: var(--secondary-color);
+  margin-bottom: 5.6rem;
+
+}
+
+.summary-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.summary-card {
+  padding: 8.2rem 0;
+  text-align: center;
+
+}
+
+.summary-card h1 {
+  font: italic 600 2.4rem/2.9rem var(--primary-font);
+  letter-spacing: -0.04rem;
+  color: var(--white-color);
+  margin: 1.6rem 0 .8rem 0;
+
+}
+
+.summary-card p {
+  font: normal 400 1.8rem/2.7rem var(--secondary-font);
+  color: var(--white-color);
+}
+
+/* ==============  Summary Section Css Ends =============  */
+
+/*==============  Influencer Section Css Starts =========== */
+.Influencers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 7rem;
+}
+
+.influencers-image {
+  flex-basis: 50%;
+}
+
+.influencers-image img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.influencers-content {
+  flex-basis: 50%;
+  margin-left: 10rem;
+  padding: 1rem;
+}
+
+.influencers-content h1 {
+  font: italic 600 3.2rem/3.9rem var(--primary-font);
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+.specifice-influencers {
+  color: var(--accent-color);
+}
+
+.influencers-content p {
+  font: normal 400 1.8rem/2.7rem var(--secondary-font);
+  align-items: center;
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
+.know-more-button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  margin-top: 1.6rem;
+}
+
+/*==============  Influencer Section Css Ends =========== */
+/*==============  Personality Section Css Starts =========== */
+.specifice-personality {
+  color: var(--neutral-color);
+}
+
+.personality-button {
+  background-color: var(--neutral-color);
+}
+
+.personality-content {
+  margin: 0 5rem;
+  padding: 0rem;
+}
+
+/*==============  Personality Section Css Ends =========== */
+/*==============  Lurkers Section Css Starts =========== */
+.specifice-lurkers {
+  color: var(--secondary-color);
+}
+
+.lurkers-button {
+  background-color: var(--secondary-color);
+}
+
+/*==============  Lurkers Section Css Ends =========== */
+/*==============  Lurkers Section Css Starts =========== */
+.contact-container {
+  height: 690px;
+  background: url("../Images/Contact-back.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 610px;
+  height: 559px;
+  background-color: var(--white-color);
+  border: 1px solid #DDDDDD;
+  box-shadow: 0px 1px 3px rgba(2, 1, 1, 0.1), 0px 2px 1px rgba(2, 1, 1, 0.06), 0px 1px 1px rgba(2, 1, 1, 0.08);
+  border-radius: .8rem
+}
+
+.form-heading {
+  font: italic 600 2.4rem/3.6rem var(--primary-font);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 2.2rem 0;
+}
+
+.name-input,
+.email-input,
+.mobile-number-input,
+.message-input {
+  width: 496px;
+  height: 60px;
+  background: var(--white-color);
+  opacity: 0.6;
+  border: 1px solid #334155;
+  border-radius: .8rem;
+  display: block;
+  margin-bottom: 1.5rem;
+  outline: none;
+  padding: 1.8rem 2.4rem;
+  font: normal 400 1.6rem/2.4rem var(--secondary-font);
+}
+
+.message-input {
+  height: 125px;
+}
+
+.submit-button {
+  margin: 0 auto;
+}
+
+.submit-button {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*==============  Lurkers Section Css Ends =========== */
+/*==============  Footer Section Css Starts =========== */
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10rem;
+}
+
+.footer-container {
+  background: #B2294B;
+  padding: 4rem 7rem;
+}
+
+.footer-logo p {
+  font: normal 500 2rem/2.4rem var(--secondary-color);
+  color: var(--white-color);
+  margin: 1.5rem 0 2.4rem 0;
+}
+
+.footer-heading {
+  font: italic 600 2.4rem/3.6rem var(--primary-font);
+  letter-spacing: -0.04em;
+  color: var(--white-color);
+  margin-bottom: 1.6rem;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list li {
+  margin-bottom: 1.6rem;
+}
+
+.footer-list a {
+  font: normal 400 1.4rem/2.1rem var(--secondary-color);
+  text-decoration: none;
+  align-items: center;
+  color: var(--white-color);
+}
+
+.footer-button {
+  margin-right: 0rem;
+  margin-bottom: 1.6rem;
+  padding: 1rem 6.5rem;
+  letter-spacing: -0.04em;
+}
+
+.subscribe-button {
+  padding: 1rem 7rem;
+  background: var(--white-color);
+  color: var(--secondary-color);
+}
+
+.payment {
+  font: normal 700 1.4rem/2.2rem var(--secondary-color);
+  color: var(--white-color);
+  margin-bottom: .5rem;
+}
+
+.fa-lock {
+  margin-right: .4rem;
+}
+
+.payment-image {
+  cursor: pointer;
+}
+
+.horizantal-line {
+  opacity: 0.24;
+  border: .1rem solid #FFFFFF;
+  margin: 1.2rem 0;
+}
+
+.copyright {
+  font: normal 400 1.4rem/2.2rem var(--secondary-color);
+  color: var(--white-color);
+  text-align: center;
+}
+
+.footer-brand {
+  display: flex;
+}
+
+.footer-facebook,
+.footer-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+  cursor: pointer;
+}
+
+.fa-facebook-f,
+.fa-instagram {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+}
+
+.footer-instagram {
+  margin-left: 1.6rem;
+}
+
+/*==============  Footer Section Css Starts =========== */
