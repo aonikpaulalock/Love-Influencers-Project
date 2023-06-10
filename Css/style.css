@@ -28,6 +28,7 @@ body {
 }
 
 /* ========= Start-Project ========== */
+/* ===========  Nav-Css-Start ========  */
 .nav-container {
   background-color: var(--secondary-color);
   display: flex;
@@ -51,7 +52,15 @@ body {
   padding: 1.2rem;
 }
 
-.login-button,.contact-button {
+/* .nav-container ul>li>a.active {
+  border-bottom: .3rem solid #FFFFFF;
+}
+.nav-container ul>li>a:hover{
+  border-bottom: .3rem solid #FFFFFF;
+} */
+
+.login-button,
+.contact-button {
   margin-right: 2.4rem;
   padding: .8rem 1.6rem;
   cursor: pointer;
@@ -63,7 +72,160 @@ body {
   text-align: center;
   color: var(--white-color);
 }
+
 .contact-button {
   background-color: var(--white-color);
   color: var(--secondary-color);
 }
+
+/* ===========  Nav-Css-Ends ========  */
+
+/* ===========  Banner Css Starts =========  */
+.hero-container {
+  height: 100vh;
+  background-color: #FCF8E9;
+}
+
+.banner-top-heading {
+  text-align: center;
+}
+
+.meet-chat {
+  font: italic 600 5.6rem/120% var(--primary-font);
+  color: var(--primary-color);
+  padding: 7.6rem 0 1.6rem 0;
+}
+
+.Influencers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Influencers h4 {
+  font: italic 600 5.6rem/120% var(--primary-font);
+  color: var(--neutral-color);
+  background: var(--white-color);
+  border-radius: 1.6rem 3.2rem 3.2rem 0rem;
+  padding: .8rem 2.4rem;
+  margin: 0 0 7.6rem 1.6rem;
+}
+
+.banner-main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image-content img {
+  width: 100%;
+}
+
+.banner-image-content {
+  flex-basis: 56%;
+}
+
+.banner-text-content {
+  flex-basis: 40%;
+  padding: 4rem 7rem;
+}
+
+.banner-text-content p {
+  font: normal 400 1.8rem/2.7rem var(--secondary-font);
+  color: var(--primary-color);
+  margin-bottom: 2.4rem;
+
+}
+
+.works-icon-button {
+  font: italic 600 2.4rem/2.4rem var(--primary-font);
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 1.6rem 5rem;
+  background-color: var(--white-color);
+  border: none;
+  box-shadow: 0rem .2rem 0rem rgba(0, 0, 0, 0.043);
+  border-radius: 1.6rem 3.2rem 3.2rem 0rem;
+}
+
+.fa-arrow-right {
+  font-size: 1.7rem;
+  margin-left: 1rem;
+}
+
+/* ===========  Banner Css Ends =========  */
+
+/* ==========  Connection Section Css Starts ========  */
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.connection-container {
+  padding: 3rem 2rem;
+}
+
+.connection-main-heading {
+  font: italic 600 4rem/4.9rem var(--primary-font);
+  text-align: center;
+  color: #2D2D2D;
+  padding: 5rem 30rem;
+}
+
+.green-heart {
+  color: var(--accent-color);
+}
+
+.yellow-heart {
+  color: var(--neutral-color);
+}
+
+.brown-heart {
+  color: var(--secondary-color);
+}
+
+.connection-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.connection-card {
+  padding: 3.6rem;
+  border: 0.5px solid #A6A6A6;
+  box-shadow: 0px 1px 3px rgba(2, 1, 1, 0.1), 0px 2px 1px rgba(2, 1, 1, 0.06), 0px 1px 1px rgba(2, 1, 1, 0.08);
+  border-radius: 8px;
+}
+
+.connection-card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.connection-card h1 {
+  font: italic 600 2.4rem/2.9rem var(--primary-font);
+  color: var(--primary-color);
+  padding: 4.8rem 0 1.6rem;
+  text-align: center;
+}
+
+.connection-card p {
+  font: normal 400 1.6rem/2.4rem var(--secondary-font);
+  color: #000000;
+  text-align: center;
+}
+
+.connection-background-1 {
+  background: #EAF9F4;
+}
+
+.connection-background-2 {
+  background: #FCF8E9;
+
+}
+
+.connection-background-3 {
+  background: #F7EAED;
+}
+
+/* ==========  Connection Section Css Ends ========  */
