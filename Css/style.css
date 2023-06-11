@@ -358,6 +358,7 @@ body {
   height: 690px;
   background: url("../Images/Contact-back.png");
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -646,6 +647,7 @@ body {
 
   .influencers-content {
     margin-left: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .Personality-container {
