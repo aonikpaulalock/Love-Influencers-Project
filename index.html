@@ -14,30 +14,36 @@
   <header>
     <!-- ============  Menu Bar starts =============-->
     <nav class="nav-container">
-      <span>
+      <div>
         <img src="./Images/logo.png" alt="Logo">
-      </span>
-      <ul>
-        <li>
-          <a href="#a" class="active">Home</a>
-        </li>
-        <li>
-          <a href="#b">About</a>
-        </li>
-        <li>
-          <a href="#c">How It Works?</a>
-        </li>
-        <li>
-          <a href="#d">FAQs</a>
-        </li>
-        <li>
-          <a href="#e">Safety</a>
-        </li>
-      </ul>
-      <span>
-        <button class="login-button">Login</button>
-        <button class="contact-button">Contact Us</button>
-      </span>
+      </div>
+      <input type="checkbox" id="nav-toggler">
+      <label class="nav-toggler-icon" for="nav-toggler">
+        <i class="card-icon fas fa-bars"></i>
+      </label>
+      <div class="navigation-container">
+        <ul class="navigation">
+          <li>
+            <a href="#a" class="active">Home</a>
+          </li>
+          <li>
+            <a href="#b">About</a>
+          </li>
+          <li>
+            <a href="#c">How It Works?</a>
+          </li>
+          <li>
+            <a href="#d">FAQs</a>
+          </li>
+          <li>
+            <a href="#e">Safety</a>
+          </li>
+        </ul>
+        <div class="navigation-button">
+          <button class="login-button">Login</button>
+          <button class="contact-button">Contact Us</button>
+        </div>
+      </div>
     </nav>
     <!-- ============  Menu Bar starts =============-->
 
@@ -160,7 +166,7 @@
     <!-- ===========  Influencer Section Ends ===========  -->
 
     <!-- ===========  Personality Section Starts ===========  -->
-    <section class="Influencers-container">
+    <section class="Personality-container">
       <div class="influencers-content personality-content">
         <h1>Join our community and meet our
           <span class="specifice-personality"> Personalities</span>
@@ -226,10 +232,12 @@
   <footer class="footer-container">
     <div class="footer-grid-container">
       <div class="footer-logo">
-        <img src="./Images/logo.png" alt="FOOTER-LOGO">
-        <p>The world's first social media platform where users can pay a small fee to unlock
-          chats and meets ups with
-          other users on our platform, who have been qualified as interesting Personalities or Influencers. </p>
+        <div>
+          <img src="./Images/logo.png" alt="FOOTER-LOGO">
+          <p>The world's first social media platform where users can pay a small fee to unlock
+            chats and meets ups with
+            other users on our platform, who have been qualified as interesting Personalities or Influencers. </p>
+        </div>
         <div class="footer-brand">
           <span class="footer-facebook">
             <i class="fa-brands fa-facebook-f"></i>
@@ -258,7 +266,7 @@
           <li><a href="">Terms & Conditions</a></li>
         </ul>
       </div>
-      <div>
+      <div class="newsletter">
         <div>
           <h1 class="footer-heading">Newsletter</h1>
           <button class="footer-button">Your email</button>
@@ -272,8 +280,10 @@
         <img src="./Images/payment.png" alt="" class="payment-image">
       </div>
     </div>
-    <hr class="horizantal-line">
-    <h6 class="copyright">Elitely @copyright 2023</h6>
+    <div>
+      <hr class="horizantal-line">
+      <h6 class="copyright">Elitely @copyright 2023</h6>
+    </div>
   </footer>
 </body>
 
