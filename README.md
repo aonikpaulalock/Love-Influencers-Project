@@ -1,3 +1,3 @@
 # Create Project using just html,css and this project fully responsive and this website name Love influence.........
  ## Love Influencer Live Demo
- # https://648699fc2fa55b0c8725b7ac--ornate-croissant-504bb7.netlify.app/
+ # https://648699fc2fa55b0c8725b7ac--ornate-croissant-504bb7.netlify.app/https://ornate-croissant-504bb7.netlify.app
