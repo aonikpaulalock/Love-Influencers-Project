@@ -10,6 +10,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -69,12 +70,13 @@ body {
   color: var(--white-color);
 }
 
-/* .nav-container ul>li>a.active {
+.nav-container ul>li>a.active {
   border-bottom: .3rem solid #FFFFFF;
 }
-.nav-container ul>li>a:hover{
+
+.nav-container ul>li>a:hover {
   border-bottom: .3rem solid #FFFFFF;
-} */
+}
 
 .login-button,
 .contact-button,
@@ -622,6 +624,14 @@ body {
     transform: translateY(0px);
   }
 
+  .nav-container ul>li>a.active {
+    border-bottom:none;
+  }
+
+  .nav-container ul>li>a:hover {
+    border-bottom: none;
+  }
+
   .banner-main-content {
     display: flex;
     flex-direction: column-reverse;
@@ -778,6 +788,7 @@ body {
     width: 270px;
     height: 50px;
   }
+
   .Influencers img {
     width: 60px;
     height: 40px;
