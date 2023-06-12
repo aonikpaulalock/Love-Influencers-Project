@@ -253,6 +253,7 @@ body {
   height: 299px;
   background: url("../Images/Coupple.png");
   background-color: var(--secondary-color);
+  background-repeat: no-repeat;
   margin-bottom: 5.6rem;
 }
 
@@ -701,6 +702,7 @@ body {
 
   .summary-container {
     height: fit-content;
+    background: var(--secondary-color);
   }
 
   .summary-card {
